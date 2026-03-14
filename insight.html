@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>EcoTrace Insights</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+display:flex;
+background:#f4f7fb;
+}
+
+/* SIDEBAR */
+
+.sidebar{
+width:240px;
+background:#0f9d6c;
+color:white;
+height:100vh;
+padding:20px;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+margin-bottom:30px;
+}
+
+.logo-img{
+width:35px;
+height:35px;
+}
+
+.logo h2{
+margin:0;
+}
+
+.logo p{
+margin:0;
+font-size:12px;
+opacity:0.8;
+}
+
+.sidebar a{
+display:flex;
+align-items:center;
+gap:10px;
+padding:12px;
+margin-top:10px;
+color:white;
+text-decoration:none;
+border-radius:10px;
+}
+
+.sidebar a:hover{
+background:rgba(255,255,255,0.2);
+}
+
+.sidebar a.active{
+background:white;
+color:#0f9d6c;
+}
+
+/* ICON */
+
+.icon{
+width:20px;
+height:20px;
+}
+
+/* MAIN */
+
+.main{
+flex:1;
+padding:30px;
+}
+
+.cards{
+display:flex;
+gap:20px;
+margin-top:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:12px;
+flex:1;
+box-shadow:0 2px 8px rgba(0,0,0,0.05);
+text-align:center;
+}
+
+/* SYMBOL */
+
+.symbol{
+width:16px;
+height:16px;
+margin-right:6px;
+vertical-align:middle;
+}
+
+/* ALERT BOX */
+
+.alert{
+background:#fff5f5;
+border:1px solid #fecaca;
+padding:20px;
+border-radius:12px;
+margin-top:30px;
+}
+
+.trend{
+background:#fffbeb;
+border:1px solid #fde68a;
+padding:20px;
+border-radius:12px;
+margin-top:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- SIDEBAR -->
+
+<div class="sidebar">
+
+<div class="logo">
+
+<img src="logo5.png" class="logo-img">
+
+<div>
+<h2>EcoTrace</h2>
+<p>Environmental Monitor</p>
+</div>
+
+</div>
+
+<a href="dashboard.html">
+<img src="data-analysis.png" class="icon">
+Dashboard
+</a>
+
+<a href="upload.html">
+<img src="upload.png" class="icon">
+Upload Data
+</a>
+
+<a href="map.html">
+<img src="map.png" class="icon">
+Pollution Map
+</a>
+
+<a href="insight.html" class="active">
+<img src="insight.png" class="icon">
+Insights
+</a>
+
+</div>
+
+<!-- MAIN -->
+
+<div class="main">
+
+<h1>Insights</h1>
+<p>AI-generated environmental insights and recommendations</p>
+
+<div class="cards">
+
+<div class="card">
+<h2>2</h2>
+<p>
+<img src="alert.jpeg" class="symbol">
+High Priority
+</p>
+</div>
+
+<div class="card">
+<h2>2</h2>
+<p>
+<img src="medium.jpeg" class="symbol">
+Medium Priority
+</p>
+</div>
+
+<div class="card">
+<h2>2</h2>
+<p>
+<img src="good.jpeg" class="symbol">
+Good News
+</p>
+</div>
+
+</div>
+
+<div class="alert">
+
+<h3>High Risk Alert</h3>
+
+<p>
+ChemCorp Industries shows 87% risk score with daily chemical waste output of 45.2 tons.
+Immediate monitoring recommended.
+</p>
+
+<p><b>Recommendation:</b></p>
+
+<p>
+Schedule immediate environmental audit and implement stricter waste management protocols.
+</p>
+
+</div>
+
+<div class="trend">
+
+<h3>Waste Output Trend</h3>
+
+<p>
+Waste levels increasing in the last 3 months across multiple factories.
+Implement monitoring sensors and compliance checks.
+</p>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

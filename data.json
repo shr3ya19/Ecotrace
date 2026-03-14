@@ -1,0 +1,68 @@
+[
+  {
+    "name": "ChemCorp Industries",
+    "waste": 96,
+    "type": "Chemical",
+    "risk": "High"
+  },
+  {
+    "name": "GreenSteel Ltd",
+    "waste": 78,
+    "type": "Metal",
+    "risk": "Medium"
+  },
+  {
+    "name": "EcoTextiles",
+    "waste": 52,
+    "type": "Plastic",
+    "risk": "Low"
+  },
+  {
+    "name": "PowerGen Energy",
+    "waste": 45,
+    "type": "Toxic",
+    "risk": "High"
+  },
+  {
+    "name": "Urban Plastics",
+    "waste": 39,
+    "type": "Plastic",
+    "risk": "Medium"
+  },
+  {
+    "name": "Mega Electronics",
+    "waste": 34,
+    "type": "Electronic",
+    "risk": "Medium"
+  },
+  {
+    "name": "PaperWorks Mill",
+    "waste": 28,
+    "type": "Paper",
+    "risk": "Low"
+  },
+  {
+    "name": "Tata steel",
+    "waste": 28,
+    "type": "Paper",
+    "risk": "Low"
+  },
+    {
+    "name": "Hindustan textiles",
+    "waste": 66,
+    "type": "Metal",
+    "risk": "Medium"
+  },
+    {
+    "name": "manglam complex",
+    "waste": 120,
+    "type": "chemical",
+    "risk": "high"
+  },
+    {
+    "name": "youva enterprise",
+    "waste": 175,
+    "type": "Toxic",
+    "risk": "Low"
+  }
+]
